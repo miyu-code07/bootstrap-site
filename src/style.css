@@ -43,6 +43,10 @@ section {
   border-radius: 0;
 }
 
+.navbar-toggler {
+  background-color: white;
+}
+
 .hero {
   background-image: url(/images/cover.jpg);
   background-position: center;
@@ -200,6 +204,13 @@ img {
   background-color: transparent;
 }
 
+.blog-card.card-effect a {
+  transition: all 0.4s ease;
+}
+.blog-card.card-effect a:hover {
+  color: var(--primary);
+}
+
 /* contact section */
 form input.form-control {
   height: 56px;
@@ -208,4 +219,18 @@ form .form-control {
   border: transparent;
   border-radius: 0;
   background-color: rgba(0,0,0,0.04);
+}
+
+.footer-top {
+  background-color: var(--dark);
+  padding: 90px;
+  padding-bottom: 90px;
+}
+
+.footer-top a {
+  color: var(--body);
+}
+
+.footer-top a:hover {
+  color: #fff;
 }
