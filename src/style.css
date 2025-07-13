@@ -199,3 +199,13 @@ img {
   color: var(--primary);
   background-color: transparent;
 }
+
+/* contact section */
+form input.form-control {
+  height: 56px;
+}
+form .form-control {
+  border: transparent;
+  border-radius: 0;
+  background-color: rgba(0,0,0,0.04);
+}
